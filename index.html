@@ -25,6 +25,7 @@
         }
  
     </style>
+    
 </head>
 
 <body>
@@ -37,9 +38,20 @@
             <input type="password" placeholder="Password" class="redText">
         </div>
         <div>
-            <button>Login</button>
+            <button id="buttonLogin">Login</button>
         </div>
     </div>
 </body>
 
+<script>
+        alert ("Hello World");
+
+        console.log("Hello World", 1 + 1);
+
+        let buttonLogin = document.querySelector("#buttonLogin")
+        buttonLogin.onclick = function () {
+            alert("Login successful.")
+        }
+    </script>
+    
 </html>
